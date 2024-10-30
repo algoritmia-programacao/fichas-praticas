@@ -8,6 +8,8 @@ public class Ex15 {
         System.out.println("Insira o valor dos segundos: ");
         int totalSeconds = sc.nextInt();
 
+        sc.close();
+
         System.out.println("Segundos convertidos: " + convertSecondsToHours(totalSeconds));
     }
 
