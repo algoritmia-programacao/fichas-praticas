@@ -9,7 +9,9 @@ public class Ex11 {
         System.out.println("Insira o valor do ângulo: ");
         double angle = Math.toRadians(sc.nextInt());
 
-        System.out.printf("O resultado da relação trignométrica de %1.2f é %1.1f: ", angle, trigonometricRelations(angle));
+        System.out.printf("O resultado da relação trignométrica de %.2f é %.1f: ", angle, trigonometricRelations(angle));
+
+        sc.close();
     }
 
     private static double trigonometricRelations(double angle){
