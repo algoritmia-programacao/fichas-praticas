@@ -1,7 +1,5 @@
 package ficha22;
 
-import java.text.DecimalFormat;
-
 public class Ex17 {
     public static void main(String[] args) {
         int bananas = 8;
