@@ -11,6 +11,8 @@ public class Ex04 {
         int b = sc.nextInt();
 
         System.out.println(lowerFirst(a, b));
+
+        sc.close();
     }
 
     private static String lowerFirst(int a, int b) {

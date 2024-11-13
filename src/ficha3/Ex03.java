@@ -10,9 +10,9 @@ public class Ex03 {
         System.out.println("Introduza o divisor: ");
         int num2 = sc.nextInt();
 
-        sc.close();
-
         divide(num1, num2);
+
+        sc.close();
     }
 
     private static void divide(int num1, int num2) {
